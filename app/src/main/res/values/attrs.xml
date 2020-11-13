@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="InputNumberView">
+        <attr name="max" format="integer"/>
+        <attr name="min" format="integer"/>
+        <attr name="step" format="integer"/>
+        <attr name="disable" format="boolean"/>
+        <attr name="btnBackground" format="color|reference"/>
+        <attr name="valueSize" format="dimension"/>
+        <attr name="defaultValue" format="integer"/>
+
+    </declare-styleable>
+    <declare-styleable name="LoginPageView">
+        <attr name="mainColor" format="color"/>
+        <attr name="verifyCodeSize" format="integer"/>
+        <attr name="countDownDuration" format="integer"/>
+    </declare-styleable>
+    
+    <declare-styleable name="FlowLayout">
+        <attr name="maxLine" format="integer"/>
+        <attr name="itemHorizontalMargin" format="dimension"/>
+        <attr name="textMaxLength" format="integer"/>
+        <attr name="textColor" format="color|reference"/>
+        <attr name="borderColor" format="color|reference"/>
+        <attr name="borderRadius" format="dimension"/>
+        <attr name="itemVerticalMagin" format="dimension"/>
+        
+        
+    </declare-styleable>
+    
+    
+    <declare-styleable name="KeypadView">
+        <attr name="numberColor" format="color"/>
+        <attr name="numberSize" format="dimension"/>
+        <attr name="itemPressColor" format="reference"/>
+        <attr name="itemNormalColor" format="reference"/>
+        <attr name="itemMargin" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="AgreementTextView">
+        <attr name="agreementSize" format="dimension"/>
+        <attr name="agreementColor" format="color|reference"/>
+        <attr name="checkboxSize" format="float"/>
+        <attr name="checkboxBackground" format="reference"/>
+        <attr name="agreementContent" format="string"/>
+        <attr name="agreeConfirmTextSize" format="dimension"/>
+        <attr name="agreeConfirmTextColor" format="color"/>
+        <attr name="agreeConfirmBackground" format="reference"/>
+        <attr name="agreeConfirmBtnHeight" format="integer"/>
+        <attr name="agreeConfirmBtnWidth" format="integer"/>
+        <attr name="agreeConfirmContent" format="string"/>
+
+
+
+
+    </declare-styleable>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:attr="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+<!--    <com.example.customview.customview.flow.FlowLayout-->
+<!--        android:id="@+id/flow_layout"-->
+<!--        android:padding="10dp"-->
+<!--        sob:maxLine="3"-->
+<!--        sob:textMaxLength="2"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+
+
+<!--    </com.example.customview.customview.flow.FlowLayout>-->
+<!--    <com.example.customview.customview.keypad.KeypadView-->
+<!--        android:id="@+id/key_pad"-->
+<!--        sob:numberSize="20dp"-->
+<!--        sob:itemMargin="6dp"-->
+<!--        android:padding="20dp"-->
+<!--        android:layout_height="300dp"-->
+<!--        android:layout_width="500dp">-->
+
+<!--    </com.example.customview.customview.keypad.KeypadView>-->
+
+<com.example.customview.customview.agreeplaintext.AgreementTextView
+    android:id="@+id/agreementTextView"
+    attr:agreementSize="5dp"
+    attr:checkboxBackground="@drawable/shape_checkbox_agreement"
+    attr:agreementContent="这就是我的协议"
+    attr:checkboxSize="0.5"
+    attr:agreeConfirmBackground="@drawable/shape_confirm_btn"
+    attr:agreeConfirmTextColor="@color/colorPrimaryDark"
+    attr:agreeConfirmBtnHeight="80"
+    attr:agreeConfirmBtnWidth="230"
+    attr:agreeConfirmContent="同意以上协议"
+    attr:agreeConfirmTextSize="7sp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+</com.example.customview.customview.agreeplaintext.AgreementTextView>
+
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="white">#fff</color>
+    <color name="maincolor">#FD7541</color>
+    <color name="maindeepcolor">#C65C33</color>
+    <color name="text_grey">#888585</color>
+    <color name="text_grey_press">#000000</color>
+    <color name="key_item_color">#FF9840</color>
+    <color name="key_item_press_color">#aa9840</color>
+    <color name="gray">#C3BFBF</color>
+</resources>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:drawableLeft="@mipmap/yonghu"
+        android:drawablePadding="20dp"
+        android:text="@string/text_title"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <EditText
+                android:inputType="number"
+                android:maxLength="11"
+                android:textCursorDrawable="@drawable/shape_edt_cursor"
+                android:id="@+id/phone_num_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_edit_text_bg"
+                android:drawableLeft="@mipmap/shouji"
+                android:drawablePadding="10dp"
+                android:focusable="true"
+                android:hint="@string/text_inputphone"
+                android:paddingLeft="5dp"
+                android:paddingTop="10dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="10dp"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="24sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <EditText
+                    android:inputType="number"
+                    android:textCursorDrawable="@drawable/shape_edt_cursor"
+                    android:maxLength="4"
+                    android:id="@+id/verify_edt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_edit_text_bg"
+                    android:drawableLeft="@mipmap/mima"
+                    android:drawablePadding="10dp"
+                    android:focusable="true"
+                    android:hint="@string/text_input_verify_code"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="120dp"
+                    android:paddingBottom="10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:enabled="false"
+                    android:id="@+id/getVerifyTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    android:text="@string/text_get_verify_code"
+                    android:textColor="@drawable/selector_text_color"
+                    android:textSize="20sp" />
+
+                <View
+
+                    android:layout_width="1dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_toLeftOf="@+id/getVerifyTv"
+                    android:background="@drawable/shape_line_bg"
+                    android:paddingBottom="8dp" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+            <CheckBox
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/report_check_box"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:drawableLeft="@drawable/selector_checkbox_bg"
+                android:drawablePadding="5dp"
+                android:button="@null" />
+                <TextView
+                    android:id="@+id/agreement_text_tips"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:text="同意用户协议"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@drawable/selector_check_text_color"/>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/login_btn"
+                android:enabled="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/selector_btn_bg"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/text_login"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <com.example.customview.customview.loginpage.LoginKeyBorad
+            android:id="@+id/number_key_pad"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:padding="10dp">
+
+        </com.example.customview.customview.loginpage.LoginKeyBorad>
+
+    </LinearLayout>
+
+</LinearLayout>
